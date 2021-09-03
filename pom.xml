@@ -97,7 +97,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <release>11</release>
+          <source>1.8</source>
+          <target>1.8</target>
           <annotationProcessorPaths>
             <annotationProcessorPath>
               <groupId>org.openjdk.jmh</groupId>
@@ -110,7 +111,8 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <release>11</release>
+          <source>1.8</source>
+          <target>1.8</target>
           <links>
             <link>https://docs.oracle.com/en/java/javase/11/docs/api/</link>
             <link>https://docs.spring.io/spring-framework/docs/current/javadoc-api/</link>
@@ -139,7 +141,7 @@
               <finalName>jobkeygenerator-benchmarks</finalName>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.github.marschall.spring.batch.benchmarks.BenchmarkMain</mainClass>
+                  <mainClass>com.github.marschall.jobkeygeneratorjobkeygenerator.BenchmarkMain</mainClass>
                   <manifestEntries>
                     <Multi-Release>true</Multi-Release>
                   </manifestEntries>

@@ -1,4 +1,4 @@
-package com.github.marschall.jobkeygeneratorjobkeygenerato;
+package com.github.marschall.jobkeygeneratorjobkeygenerator;
 
 import static org.openjdk.jmh.annotations.Mode.AverageTime;
 import static org.openjdk.jmh.annotations.Scope.Benchmark;
