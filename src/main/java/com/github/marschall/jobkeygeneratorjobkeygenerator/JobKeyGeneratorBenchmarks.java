@@ -30,8 +30,8 @@ public class JobKeyGeneratorBenchmarks {
   @Param({GENERATOR_TYPE_DEFAULT, GENERATOR_TYPE_STREAMING})
   String keyGeneratorType;
   
-//  @Param({"0", "1", "2", "4", "8", "16"})
-  @Param({"1"})
+  @Param({"0", "1", "2", "4", "8", "16"})
+//  @Param({"2"})
   int jobParameterCount;
   
   private JobKeyGenerator<JobParameters> keyGenerator;
